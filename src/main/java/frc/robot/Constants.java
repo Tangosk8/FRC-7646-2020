@@ -16,4 +16,16 @@ package frc.robot;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
+    public static final class DriveConstants {
+        //Declare drivetrain constants here -- then import where needed.
+        public static final int kLeftMotor = 0;
+        public static final int kRightMotor = 1;
+
+
+    }
+    //Contains output and input constants -- IE: joysticks and such
+    public static final class OI {
+        public static final int mainJoy = 0;
+
+    }
 }

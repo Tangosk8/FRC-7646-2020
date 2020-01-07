@@ -12,6 +12,9 @@ import edu.wpi.first.wpilibj.XboxController;
 import frc.robot.commands.ExampleCommand;
 import frc.robot.subsystems.ExampleSubsystem;
 import edu.wpi.first.wpilibj2.command.Command;
+import src.main.java.frc.robot.Constants.*;
+import edu.wpi.first.wpilibj.Joystick;
+
 
 /**
  * This class is where the bulk of the robot should be declared.  Since Command-based is a
@@ -42,6 +45,8 @@ public class RobotContainer {
    * {@link edu.wpi.first.wpilibj2.command.button.JoystickButton}.
    */
   private void configureButtonBindings() {
+    //SAMPLE -- this probably doesn't work as-is -- Check the wpilib joystick class!
+    public Joystick j = new Joystick(Constants.OI.mainJoy);
   }
 
 
