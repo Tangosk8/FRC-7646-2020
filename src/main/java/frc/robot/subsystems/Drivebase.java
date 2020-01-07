@@ -8,13 +8,15 @@
 package frc.robot.subsystems;
 
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
+import src.main.java.frc.robot.Constants.*;
 
+ 
 public class Drivebase extends SubsystemBase {
   /**
    * Creates a new Drivebase.
    */
   public Drivebase() {
-
+    TalonSRX leftMaster = new TalonSRX(Constants.DriveConstants.kleftMaster);
   }
 
   @Override
